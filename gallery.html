@@ -3,71 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery | Rincon Creek Ranch</title>
+  <title>Gallery | The Rincon Creek Ranch</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">Rincon Creek Ranch</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="testimonials.html">Testimonials</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <section class="hero hero-gallery">
-      <img src="images/gallery-hero.jpg" alt="Guests at the ranch" class="hero-img">
-      <div class="hero-content">
-        <h1>Gallery</h1>
+  <header class="navbar sticky">
+    <div class="container nav-container">
+      <div class="logo">The Rincon Creek Ranch</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html" class="cta-btn">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="images/gallery1.jpg" alt="Gallery Hero" class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Gallery</h1>
+      <p>See the beauty of The Rincon Creek Ranch</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="gallery-preview fade-in">
+      <div class="container">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-row">
+          <img src="images/gallery1.jpg" alt="Gallery 1" class="gallery-img all weddings">
+          <img src="images/gallery2.jpg" alt="Gallery 2" class="gallery-img all retreats">
+          <img src="images/gallery3.jpg" alt="Gallery 3" class="gallery-img all family">
+          <img src="images/gallery4.jpg" alt="Gallery 4" class="gallery-img all weddings">
+          <img src="images/gallery5.jpg" alt="Gallery 5" class="gallery-img all custom">
+          <img src="images/gallery6.jpg" alt="Gallery 6" class="gallery-img all retreats">
+          <img src="images/gallery7.jpg" alt="Gallery 7" class="gallery-img all family">
+          <img src="images/gallery8.jpg" alt="Gallery 8" class="gallery-img all weddings">
+        </div>
       </div>
     </section>
-  </header>
-  <main>
-    <section class="gallery-filters">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="weddings">Weddings</button>
-      <button class="filter-btn" data-filter="retreats">Retreats</button>
-      <button class="filter-btn" data-filter="gatherings">Gatherings</button>
-      <button class="filter-btn" data-filter="custom">Custom Events</button>
-    </section>
-    <section class="gallery-grid">
-      <img src="images/gallery1.jpg" alt="Wedding" class="gallery-img weddings">
-      <img src="images/gallery2.jpg" alt="Retreat" class="gallery-img retreats">
-      <img src="images/gallery3.jpg" alt="Gathering" class="gallery-img gatherings">
-      <img src="images/gallery4.jpg" alt="Custom Event" class="gallery-img custom">
-      <img src="images/gallery5.jpg" alt="Wedding" class="gallery-img weddings">
-      <img src="images/gallery6.jpg" alt="Retreat" class="gallery-img retreats">
-      <img src="images/gallery7.jpg" alt="Gathering" class="gallery-img gatherings">
-      <img src="images/gallery8.jpg" alt="Custom Event" class="gallery-img custom">
-    </section>
-    <section class="gallery-video">
-      <h2>Video Highlights</h2>
-      <video controls poster="images/video-poster.jpg" width="100%">
-        <source src="images/highlight.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+
+    <section class="about-intro fade-in">
+      <div class="container" style="text-align:center;">
+        <h2>Watch Our Story</h2>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+          <iframe src="https://www.youtube.com/embed/2g811Eo7K8U" title="Ranch Video" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+        </div>
+      </div>
     </section>
   </main>
-  <footer>
-    <div class="footer-content">
-      <div class="footer-logo">Rincon Creek Ranch</div>
-      <div class="footer-links">
-        <a href="https://instagram.com" target="_blank">Instagram</a>
-        <a href="https://facebook.com" target="_blank">Facebook</a>
-        <a href="https://pinterest.com" target="_blank">Pinterest</a>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>The Rincon Creek Ranch</h3>
+        <p>1234 Ranch Road, Tucson, AZ</p>
+        <p><a href="mailto:info@therinconcreekranch.com">info@therinconcreekranch.com</a></p>
+        <p><a href="tel:520-555-1234">(520) 555-1234</a></p>
       </div>
-      <div class="footer-contact">
-        <p>123 Ranch Road, [Location]</p>
-        <p>(555) 123-4567</p>
-        <p>info@rinconcreekranch.com</p>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <ul class="social-links">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
       </div>
     </div>
-    <div class="footer-bottom">&copy; 2024 Rincon Creek Ranch. All rights reserved.</div>
+    <div class="footer-bottom">&copy; 2024 The Rincon Creek Ranch. All rights reserved.</div>
   </footer>
+
   <script src="js/main.js"></script>
 </body>
 </html> 

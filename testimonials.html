@@ -3,81 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Testimonials | Rincon Creek Ranch</title>
+  <title>Testimonials | The Rincon Creek Ranch</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">Rincon Creek Ranch</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="testimonials.html">Testimonials</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <section class="hero hero-testimonials">
-      <img src="images/testimonials-hero.jpg" alt="Happy guests at the ranch" class="hero-img">
-      <div class="hero-content">
-        <h1>Testimonials</h1>
-      </div>
-    </section>
+  <header class="navbar sticky">
+    <div class="container nav-container">
+      <div class="logo">The Rincon Creek Ranch</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html" class="cta-btn">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
+  <section class="hero">
+    <img src="images/gallery3.jpg" alt="Testimonials Hero" class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Testimonials</h1>
+      <p>Stories from our happy guests</p>
+    </div>
+  </section>
+
   <main>
-    <section class="testimonials-list">
-      <div class="testimonial">
-        <img src="images/testimonial1.jpg" alt="Sarah & Mike" class="testimonial-img">
-        <blockquote>
-          “Our wedding at Rincon Creek Ranch was magical. The staff went above and beyond to make our day perfect!”
-        </blockquote>
-        <span class="testimonial-name">— Sarah & Mike</span>
-      </div>
-      <div class="testimonial">
-        <img src="images/testimonial2.jpg" alt="Acme Corp" class="testimonial-img">
-        <blockquote>
-          “The perfect place for our company retreat. Beautiful, peaceful, and well-organized.”
-        </blockquote>
-        <span class="testimonial-name">— Acme Corp</span>
-      </div>
-      <div class="testimonial">
-        <img src="images/testimonial3.jpg" alt="The Johnson Family" class="testimonial-img">
-        <blockquote>
-          “We had an amazing family reunion at the ranch. The kids loved the open space and the adults enjoyed the relaxing atmosphere.”
-        </blockquote>
-        <span class="testimonial-name">— The Johnson Family</span>
-      </div>
-      <div class="testimonial">
-        <img src="images/testimonial4.jpg" alt="Emily R." class="testimonial-img">
-        <blockquote>
-          “From start to finish, the team made our event seamless and memorable. Highly recommend!”
-        </blockquote>
-        <span class="testimonial-name">— Emily R.</span>
+    <section class="testimonials-carousel fade-in">
+      <div class="container">
+        <h2>What Our Guests Say</h2>
+        <div class="testimonials">
+          <div class="testimonial">
+            <p>“The most magical wedding venue! The staff went above and beyond.”</p>
+            <span>- Emily R.</span>
+          </div>
+          <div class="testimonial">
+            <p>“Perfect for our company retreat. Peaceful, beautiful, and inspiring.”</p>
+            <span>- Mark T.</span>
+          </div>
+          <div class="testimonial">
+            <p>“Our family reunion was unforgettable. We'll be back!”</p>
+            <span>- The Johnsons</span>
+          </div>
+          <div class="testimonial">
+            <p>“The scenery is breathtaking and the hospitality unmatched.”</p>
+            <span>- Lisa M.</span>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="cta">
-      <h2>Ready to create your own memories?</h2>
-      <a href="contact.html" class="btn">Contact Us</a>
+
+    <section class="about-intro fade-in">
+      <div class="container" style="text-align:center;">
+        <h2>Ready to Make Memories?</h2>
+        <p>Contact us to book your event or schedule a tour. We'd love to welcome you!</p>
+        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+      </div>
     </section>
   </main>
-  <footer>
-    <div class="footer-content">
-      <div class="footer-logo">Rincon Creek Ranch</div>
-      <div class="footer-links">
-        <a href="https://instagram.com" target="_blank">Instagram</a>
-        <a href="https://facebook.com" target="_blank">Facebook</a>
-        <a href="https://pinterest.com" target="_blank">Pinterest</a>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>The Rincon Creek Ranch</h3>
+        <p>1234 Ranch Road, Tucson, AZ</p>
+        <p><a href="mailto:info@therinconcreekranch.com">info@therinconcreekranch.com</a></p>
+        <p><a href="tel:520-555-1234">(520) 555-1234</a></p>
       </div>
-      <div class="footer-contact">
-        <p>123 Ranch Road, [Location]</p>
-        <p>(555) 123-4567</p>
-        <p>info@rinconcreekranch.com</p>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <ul class="social-links">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
       </div>
     </div>
-    <div class="footer-bottom">&copy; 2024 Rincon Creek Ranch. All rights reserved.</div>
+    <div class="footer-bottom">&copy; 2024 The Rincon Creek Ranch. All rights reserved.</div>
   </footer>
+
   <script src="js/main.js"></script>
 </body>
 </html> 
